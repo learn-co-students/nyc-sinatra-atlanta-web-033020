@@ -1,0 +1,10 @@
+<h1>Here Is The Figure You're Looking For!</h1><br>
+<h2>Figure Name: <%=@figure.name%></h2><br>
+<h3>Figure Landmarks:</h3>
+<%@figure.landmarks.each do |landmark|%>
+<%=landmark.name%> <br>
+<%end%>
+<h3>Figure Titles:</h3>
+<%@figure.titles.each do |title|%>
+<%=title.name%> <br>
+<%end%>
